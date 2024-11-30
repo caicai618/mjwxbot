@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  mj_gen:
+    image: alpine:latest
+    container_name: mj_gen
+    working_dir: /app
+    command: ["./mjwxbot"]
+    volumes:
+      - ./mj_gen:/app/mj_gen
+      - ./config:/app/config
+    restart: unless-stopped
+

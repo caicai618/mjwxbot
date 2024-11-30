@@ -1,0 +1,5 @@
+mj:
+  api: https://xxx/ # MJProxy接口地址
+  token: xxx # 认证
+bot:
+  adminNickName: "xx" # 管理员昵称(必填,特殊字符例如：&&需要改成&amp;&amp;)
